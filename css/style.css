@@ -1,4 +1,16 @@
-.debug [class^="col-"] {
-    background-color: cadetblue;
+
+
+#site-header .col-12 {
     height: 100px;
+    background-color: cadetblue;
+}
+
+.jumbo .col-12 {
+    height: 300px;
+    background-color: chocolate;
+}
+
+.card {
+    height: 300px;
+    background-color: chartreuse;
 }
