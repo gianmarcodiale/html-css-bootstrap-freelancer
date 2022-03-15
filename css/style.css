@@ -15,7 +15,10 @@
     background-color: chartreuse;
 }
 
-.container-fluid .col-12 {
-    height: 500px;
-    background-color: coral;
+.blue {
+    background-color: blue;
+}
+
+.brown {
+    background-color: brown;
 }
