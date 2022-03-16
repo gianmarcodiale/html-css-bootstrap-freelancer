@@ -46,3 +46,14 @@
 .portfolio .portfolio-badge img {
     border-radius: 0.5rem;
 }
+
+/* About section */
+#about-section .download-button:hover a,
+#about-section .download-button:hover i {
+    color: var(--color-bg-light-green);
+    transition: 0.5s linear;
+}
+
+#about-section .download-button:hover a {
+    background-color: #FFFFFF;
+}
