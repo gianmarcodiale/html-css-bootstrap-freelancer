@@ -27,9 +27,17 @@
     background-color: #FFFFFF;
 }
 
+.fl-bg-darkblue {
+    background-color: var(--color-bg-footer-top);
+}
+
 /* Text colors */
 .fl-txt-dark {
     color: var(--color-title-no-bg);
+}
+
+.fl-txt-green {
+    color: var(--color-bg-light-green);
 }
 
 /* Custom navigation */
