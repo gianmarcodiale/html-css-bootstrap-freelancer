@@ -48,12 +48,8 @@
 }
 
 /* About section */
-#about-section .download-button:hover a,
-#about-section .download-button:hover i {
+#about-section .dl-btn:hover {
     color: var(--color-bg-light-green);
-    transition: 0.5s linear;
-}
-
-#about-section .download-button:hover a {
     background-color: #FFFFFF;
+    transition: 0.5s linear;
 }
