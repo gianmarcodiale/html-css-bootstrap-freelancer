@@ -1,28 +1,22 @@
-
-
-#site-header .col-12 {
-    height: 100px;
-    background-color: cadetblue;
+/* Utility */
+:root {
+    --color-header-hr-star-footer-bottom: #2C3E50;
+    --color-bg-light-green: #1ABC9C;
+    --color-title-no-bg: #333333;
+    --color-bg-footer-top: #3A546D;
+    --color-border-bottom: #CCCCCC;
 }
 
-.jumbo .col-12 {
-    height: 300px;
-    background-color: chocolate;
+/* Background colors */
+.fl-bg-dark {
+    background-color: var(--color-header-hr-star-footer-bottom);
 }
 
-.card {
-    height: 300px;
-    background-color: chartreuse;
+.fl-bg-green {
+    background-color: var(--color-bg-light-green);
 }
 
-.blue {
-    background-color: blue;
-}
-
-.brown {
-    background-color: brown;
-}
-
-.beige {
-    background-color: beige;
+/* Custom navigation */
+.navbar-nav li.nav-item a.nav-link:hover {
+    background-color: var(--color-bg-light-green);
 }
