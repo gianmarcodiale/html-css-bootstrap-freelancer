@@ -20,3 +20,8 @@
 .navbar-nav li.nav-item a.nav-link:hover {
     background-color: var(--color-bg-light-green);
 }
+
+/* Header */
+.avatar {
+    width: 15rem;
+}
