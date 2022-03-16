@@ -7,6 +7,13 @@
     --color-border-bottom: #CCCCCC;
 }
 
+.custom-line {
+    width: 100%;
+    height: 0.25rem;
+    border-radius: 1rem;
+    max-width: 7rem;
+}
+
 /* Background colors */
 .fl-bg-dark {
     background-color: var(--color-header-hr-star-footer-bottom);
@@ -14,6 +21,10 @@
 
 .fl-bg-green {
     background-color: var(--color-bg-light-green);
+}
+
+.fl-bg-white {
+    background-color: #FFFFFF;
 }
 
 /* Custom navigation */
