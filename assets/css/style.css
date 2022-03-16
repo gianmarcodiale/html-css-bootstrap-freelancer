@@ -70,3 +70,12 @@
     background-color: #FFFFFF;
     transition: 0.5s linear;
 }
+
+/* PORTFOLIO PAGE */
+
+/* Newsletter section */
+#sub-to-news .send-btn:hover {
+    color: var(--color-bg-light-green);
+    background-color: #FFFFFF;
+    transition: 0.5s linear;
+}
