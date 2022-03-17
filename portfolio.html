@@ -24,7 +24,7 @@
   <body>
 
     <!-- Start navbar section -->
-    <nav class="navbar navbar-expand-lg navbar-dark fl-bg-dark text-uppercase fw-bold pt-4 pb-4">
+    <nav class="navbar navbar-expand-lg navbar-dark fl-bg-dark text-uppercase fw-bold pt-4 pb-4 fixed-top">
         <div class="container">
             <a class="navbar-brand" href="/index.html">Start Bootstrap</a>
             <!-- Navbar hidden button -->
@@ -52,7 +52,7 @@
 
     <!-- Start porfotlio section -->
     <section id="portfolio-section">
-        <div class="container">
+        <div class="container fl-mt-8rem">
             <!-- porfolio title -->
             <h2 class="text-uppercase text-center mt-5 porfolio-title fl-txt-dark">Portfolio</h2>
             <!-- portfolio divider -->
@@ -132,15 +132,16 @@
     <!-- Subscribe to newsletter section-->
     <section id="sub-to-news" class="fl-bg-green mt-3 pb-3">
         <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <h5 class="text-uppercase text-white pt-4 d-inline-block">Subscribe to Newsletter</h5><i class="fa-solid fa-envelope text-white fs-4 ps-3"></i>
-                    <div class="mb-3">
-                        <label for="" class="form-label"></label>
-                        <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="Email">
-                    </div>
-                    <a name="" id="" class="send-btn btn btn-primary fl-bg-green border-white" href="#" role="button">Send</a>
+            <h5 class="text-uppercase text-white pt-4 d-inline-block">Subscribe to Newsletter</h5>
+                <div class="icon-email d-inline-block">
+                    <i class="fa-solid fa-envelope text-white fs-4 ps-3"></i>
                 </div>
+            <div class="col-4">
+                <div class="mb-3">
+                    <label for="" class="form-label"></label>
+                    <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="Email">
+                </div>
+                <a name="" id="" class="send-btn btn btn-primary fl-bg-green border-white" href="#" role="button">Send</a>
             </div>
         </div>
     </section>

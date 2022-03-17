@@ -18,6 +18,10 @@
     margin-top: 5rem;
 }
 
+.fl-mt-8rem {
+    margin-top: 8rem;
+}
+
 /* Background colors */
 .fl-bg-dark {
     background-color: var(--color-header-hr-star-footer-bottom);
@@ -47,11 +51,6 @@
 /* Custom navigation */
 .navbar-nav li.nav-item a.nav-link:hover {
     background-color: var(--color-bg-light-green);
-}
-
-/* Portfolio */
-.portfolio .portfolio-badge {
-    overflow: hidden;
 }
 
 /* Header */
